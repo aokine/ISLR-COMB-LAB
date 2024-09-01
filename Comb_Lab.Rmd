@@ -1,0 +1,40 @@
+---
+title: "Statistical Learning I"
+author: "Your Name"
+date: "Current Date and Time"
+bibliography: PackagesUsed.bib
+output: 
+  bookdown::html_document2: 
+    highlight: textmate
+    theme: yeti
+    toc: yes
+---
+
+
+```{r, label = "SETUP", echo = FALSE, results= 'hide', message = FALSE, warning = FALSE}
+library(knitr)
+knitr::opts_chunk$set(comment = NA, fig.align = 'center', fig.height = 5, fig.width = 5, prompt = FALSE, highlight = TRUE, tidy = FALSE, warning = FALSE, message = FALSE, tidy.opts=list(blank = TRUE, width.cutoff = 80))
+```
+
+
+
+
+# Introduction to R and Data Visualization^[The material in Section \@ref(lab) is modified from the Chapter 2 lab of [_An introduction to Statistical Learning_](https://web.stanford.edu/~hastie/ISLR2/ISLRv2_website.pdf).] {#lab} 
+
+
+
+# Linear Regression
+
+
+
+
+# Classification Methods
+
+
+# Cross-Validation
+
+
+
+
+
+# References
